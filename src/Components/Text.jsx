@@ -33,7 +33,6 @@ gsap.to(split.chars, {
     pin: true,
     pinSpacing: true,
     anticipatePin: 1,
-    markers: true,
   },
 });
     })
