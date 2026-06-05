@@ -10,6 +10,7 @@ gsap.registerPlugin(ScrollTrigger)
 const lenis  = new Lenis({
   duration : 1.2,
   smoothWheel : true,
+  autoRaf: false,
 })
 lenis.on("scroll" ,ScrollTrigger.update)
 gsap.ticker.add((time)=>{
